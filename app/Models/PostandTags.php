@@ -15,5 +15,5 @@ class PostandTags extends Model
     protected $primaryKey = 'id';
     public $incrementing = false;
     public $timestamps = false;
-    protected $filltable = ['id', 'post_id', 'tag_id'];
+    protected $fillable = ['id', 'post_id', 'tag_id'];
 }
