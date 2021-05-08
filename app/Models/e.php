@@ -15,5 +15,5 @@ class e extends Model
     protected $primaryKey = 'id';
     public $incrementing = false;
     public $timestamps = false;
-    protected $filltable = ['id', 'name', 'role_id', 'email', 'password', 'status'];
+    protected $fillable = ['id', 'name', 'role_id', 'email', 'password', 'status'];
 }
