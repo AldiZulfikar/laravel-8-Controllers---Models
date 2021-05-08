@@ -14,5 +14,5 @@ class Tags extends Model
     protected $primaryKey = 'id';
     public $incrementing = false;
     public $timestamps = false;
-    protected $filltable = ['id', 'name'];
+    protected $fillable = ['id', 'name'];
 }
